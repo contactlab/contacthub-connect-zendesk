@@ -1,0 +1,13 @@
+{
+  "app": {
+    "name": "Contacthub connector",
+    "short_description": "",
+    "long_description": "",
+    "installation_instructions": "View readme instructions",
+    "parameters": {
+      "shared_secret": { "label": "JWT shared secret" },
+      "target_url": { "label": "App server URL" },
+      "target_domain": { "label": "App server domain for whitelisting" }
+    }
+  }
+}

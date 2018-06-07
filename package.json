@@ -1,0 +1,20 @@
+{
+  "name": "contacthub-zendesk-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "contacthub-sdk-nodejs": "^1.0.1",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.1",
+    "node-fetch": "^2.1.1"
+  }
+}
