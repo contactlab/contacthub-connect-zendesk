@@ -224,7 +224,7 @@ Installation
 - On Zendesk Admin panel, go to "APPS -> Manage" page  
 - Click on "Upload private app" button  
 - In "App Name" field insert a name that identify our widget (eg. "Contacthub widget")  
-- Click on the "Choose File" button and select the widget archive file downloaded from [this project release section](https://github.com/contactlab/contacthub-connect-zendesk/releases/download/1.0/contacthub-app.zip)  
+- Click on the "Choose File" button and select the widget archive file downloaded from this project [release section](https://github.com/contactlab/contacthub-connect-zendesk/releases/download/1.0/contacthub-app.zip)  
 - Click "Upload" button to install widget (You have to confirm non-Zendesk widget installation)  
 - After installation process, you have to configure the widget (you can change this settings anytime):  
    **Title**: Should be auto-set by system  
