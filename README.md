@@ -27,6 +27,7 @@ Installation
    **Conditions**: Insert all needed conditions, at least 2 conditions are required as **ANY conditions**:  
    - "Ticket is Created"  
    - "Ticket is Updated"  
+   
    **Actions**: Select "Notify target" as action and the "HTTP target" name previously set as target. As JSON body insert the following code:  
   
    ```javascript
