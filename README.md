@@ -7,28 +7,28 @@ Requirements
 
 Installation
 
-- Clone repository
-- Run shell command "npm install" from project root folder
-- Make a copy of ".env.sample" file and rename it to ".env"
-- Configure ".env" file
-- Run the node application
-- Optionally configure reverse proxy on your http server (recommended)
-- On Zendesk Admin panel, go to "SETTINGS -> Extensions" page
-- Add a "HTTP target" target and configure it as follow:  
-   **Title**: Anything is fine  
-   **Url**: *SERVER_URL*/zdtt, where *SERVER_URL* is your Contacthub-Zendesk server URL (and port if needed)  
+- Clone the repository.
+- Run the shell command "npm install" from the project root folder.
+- Make a copy of the ".env.sample" file and rename it ".env".
+- Configure the ".env" file.
+- Run the node application.
+- Optionally configure the reverse proxy on your http server (recommended).
+- On the Zendesk Admin panel, go to the "SETTINGS > Extensions" page.
+- Add an "HTTP target" target and configure it as follows:  
+   **Title**: Anything is fine.  
+   **Url**: *SERVER_URL*/zdtt, where *SERVER_URL* is your Contacthub-Zendesk server URL (together with the port if needed).  
    **Method**: POST  
    **Content type**: JSON  
-   **Basic Authentication**: Enable and configure it if needed
-- On Zendesk Admin panel, go to "BUSINESS RULES -> Triggers" page
-- Add new trigger and configure it as follow:  
-   **Trigger name**: Anything is fine  
-   **Description**: As above  
-   **Conditions**: Insert all needed conditions, at least 2 conditions are required as **ANY conditions**:  
-   - "Ticket is Created"  
-   - "Ticket is Updated"  
+   **Basic Authentication**: Enable and configure it if needed.
+- On the Zendesk Admin panel, go to the "BUSINESS RULES > Triggers" page.
+- Add a new trigger and configure it as follows:  
+   **Trigger name**: Anything is fine.  
+   **Description**: As above.  
+   **Conditions**: Insert all required conditions. At least 2 conditions are needed as **ANY conditions**:  
+   - "Ticket is Created".  
+   - "Ticket is Updated".  
    
-   **Actions**: Select "Notify target" as action and the "HTTP target" name previously set as target. As JSON body insert the following code:  
+   **Actions**: Select "Notify target" as the action, together with the "HTTP target" name previously set as a target. Insert the following code as JSON body:  
   
    ```javascript
    {
@@ -222,17 +222,17 @@ Installation
    }
    ```
 
-- On Zendesk Admin panel, go to "APPS -> Manage" page  
-- Click on "Upload private app" button  
-- In "App Name" field insert a name that identify our widget (eg. "Contacthub widget")  
-- Click on the "Choose File" button and select the widget archive file downloaded from this project [release section](https://github.com/contactlab/contacthub-connect-zendesk/releases)  
-- Click "Upload" button to install widget (You have to confirm non-Zendesk widget installation)  
-- After installation process, you have to configure the widget (you can change this settings anytime):  
-   **Title**: Should be auto-set by system  
-   **JWT shared secret**: Insert the same shared secret you set in the server .env file  
-   **App server URL**: Insert the API server URL  
-   **App server domain for whitelisting**: Insert the API server domain, without schema and/or path  
-- Click on "Install" button to terminate the installation  
-- Now, when a ticket is created or modified, the customer and the ticket info are saved on Contacthub platform  
-- Now you are able to see the widget installed in the app column, in the ticket detail page and in the customer detail page  
+- On the Zendesk Admin panel, go to the "APPS > Manage" page.  
+- Click the "Upload private app" button.  
+- In the "App Name" field, insert a name that identifies our widget (for example, "Contacthub widget").  
+- Click the "Choose File" button and select the widget archive file downloaded from this project [release section](https://github.com/contactlab/contacthub-connect-zendesk/releases).  
+- Click the "Upload" button to install the widget (You have to confirm the non-Zendesk widget installation).  
+- After the installation process, you have to configure the widget (you can change these settings at any time):  
+   **Title**: Should be auto-set by the system.  
+   **JWT shared secret**: Insert the same shared secret that you set in the server .env file.  
+   **App server URL**: Insert the API server URL.  
+   **App server domain for whitelisting**: Insert the API server domain, without the schema and/or path.  
+- Click the "Install" button to terminate the installation.  
+- Now, when a ticket is created or modified, the customer and the ticket info are saved on the Contacthub platform.  
+- Now you are able to see the widget installed in the app column, in the ticket detail page and in the customer detail page.  
 
