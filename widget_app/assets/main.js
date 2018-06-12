@@ -262,7 +262,7 @@ function showEvents(events) {
         });
         formatted.details.push({
           name: 'Amount',
-          value: `${props.amount.local.currency} ${props.amount.totals}`
+          value: props.amount?`${props.amount.local?props.amount.local.currency:''} ${props.amount.totals}`:''
         });
       break;
       case 'addedCompare':
@@ -330,7 +330,7 @@ function showEvents(events) {
         });
         formatted.details.push({
           name: 'Amount',
-          value: `${props.amount.local.currency} ${props.amount.total}`
+          value: props.amount?`${props.amount.local?props.amount.local.currency:''} ${props.amount.total}`:''
         });
         formatted.details.push({
           name: 'Products',
