@@ -1,11 +1,11 @@
-### Contacthub Zendesk widget ###
----
-Requirements
+# Contacthub Zendesk widget ###
+
+## Requirements
 
 - npm >= 5.X
 - Node >= 8.X
 
-Installation
+## Installation
 
 - Clone the repository.
 - Run the shell command "npm install" from the project root folder.
