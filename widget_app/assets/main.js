@@ -255,16 +255,6 @@ function showEvents(events) {
     };
     var props = event.properties;
     switch (event.type) {
-      case 'abandonedCart':
-        formatted.details.push({
-          name: 'Order ID',
-          value: props.orderId
-        });
-        formatted.details.push({
-          name: 'Amount',
-          value: props.amount?`${props.amount.local?props.amount.local.currency:''} ${props.amount.totals}`:''
-        });
-      break;
       case 'addedCompare':
       case 'addedProduct':
       case 'addedWishlist':
@@ -323,6 +313,7 @@ function showEvents(events) {
           value: props.subject
         });
       break;
+      case 'abandonedCart':
       case 'completedOrder':
         formatted.details.push({
           name: 'Order ID',
