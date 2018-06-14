@@ -6,8 +6,8 @@ View Contacthub user profile and user events in your ZenDesk Suite with Contacth
 
 #### Screenshots
 
-![alt text](contactlab/contacthub-connect-zendesk/master/profile-example.png "In app user profile")  
-![alt text](contactlab/contacthub-connect-zendesk/master/events-example.png "In app user events")
+![alt text](https://github.com/contactlab/contacthub-connect-zendesk/raw/master/profile-example.png "In app user profile")  
+![alt text](https://github.com/contactlab/contacthub-connect-zendesk/raw/master/events-example.png "In app user events")
 
 ## Requirements
 
