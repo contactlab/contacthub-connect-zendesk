@@ -4,6 +4,11 @@ Contacthub integration with ZenDesk Suite.
 Save tickets and ticket requesters into Contacthub platform.  
 View Contacthub user profile and user events in your ZenDesk Suite with Contacthub app.
 
+#### Screenshots
+
+![alt text](contactlab/contacthub-connect-zendesk/master/profile-example.png "In app user profile")  
+![alt text](contactlab/contacthub-connect-zendesk/master/events-example.png "In app user events")
+
 ## Requirements
 
 - npm >= 5.X
