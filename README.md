@@ -1,5 +1,9 @@
 # Contacthub Zendesk widget ###
 
+Contacthub integration with ZenDesk Suite.  
+Save tickets and ticket requesters into Contacthub platform.  
+View Contacthub user profile and user events in your ZenDesk Suite with Contacthub app.
+
 ## Requirements
 
 - npm >= 5.X
