@@ -112,9 +112,7 @@ app.post(`${URL_PREFIX}/zdtt`, (req, res) => {
     base: {
       contacts: {
         email: `${req.body.requester.email}`
-      },
-      firstName: `${req.body.requester.first_name}`,
-      lastName: `${req.body.requester.last_name}`
+      }
     }
   };
   const eventData = {
@@ -125,7 +123,7 @@ app.post(`${URL_PREFIX}/zdtt`, (req, res) => {
     properties: {
       ticketId: `${req.body.ticket.id}`,
       subject: `${req.body.ticket.title}`,
-      text: `${req.body.comments.latest_comment_formatted}`,
+      text: `${req.body.comments.latest_public_comment}`,
       extraProperties: {
       }
     }
