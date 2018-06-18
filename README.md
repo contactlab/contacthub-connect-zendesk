@@ -1,15 +1,13 @@
 # Contacthub Zendesk widget ###
 
-Contacthub integration with ZenDesk Suite.  
-Save tickets and ticket requesters into Contacthub platform.  
-View Contacthub user profile and user events in your ZenDesk Suite with Contacthub app.
+This package provides Contacthub integration with ZenDesk Suite. It allows to save ticket requesters and tickets contents (data and metadata) to Contacthub platform. It also allows to get access to Contacthub customer view and releated events without leaving the ZenDesk Suite workspace.
 
 #### Screenshots
 
-In app user profile  
+Sample in app user profile:   
 ![alt text](https://github.com/contactlab/contacthub-connect-zendesk/raw/master/profile-example.png "In app user profile")  
 
-In app user events  
+In app user events:  
 ![alt text](https://github.com/contactlab/contacthub-connect-zendesk/raw/master/events-example.png "In app user events")
 
 ## Requirements
