@@ -1,4 +1,5 @@
 'use strict';
+require('../axios_buildURL_patch/buildURLPatch')();
 const ContactHub = require('contacthub-sdk-nodejs');
 
 const ch = new ContactHub({
